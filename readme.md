@@ -5,6 +5,9 @@ This repository includes a pretty cool Tetris AI I wrote some time in high schoo
 ## Screenshot ##
 ![screenshot of tetris AI gui](./demo.png)
 
+## Video ##
+![an old video of the AI in action](https://www.youtube.com/watch?v=YaIHvPvkL3o)
+
 ## Algorithm ##
 
 The algorithm is very simple, it uses a score-based approach with a small number of parameters. I designed it to play the way I do, which is apparently alright. The scoring code is in TetrisBot.calculateBoardScore(). In order to decide on the next move, the AI scores all valid placements of the current piece or the piece that can be swapped from the hold position.
