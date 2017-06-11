@@ -3,10 +3,12 @@ This repository includes a pretty cool Tetris AI I wrote some time in high schoo
 
 ### Running the Code ###
 The Main class is TetrisPlayer.java. I use eclipse to compile and run the code, but the following CMD commands will do the same:
-`mkdir bin
+```
+mkdir bin
 javac -d ./bin -sourcepath ./src ./src/tetris/TetrisPlayer.java
 java -cp ./bin tetris/TetrisPlayer
-pause`
+pause
+```
 
 ## Screenshot ##
 ![Screenshot of tetris AI GUI.](./demo.png)
