@@ -15,6 +15,7 @@ pause
 
 ## Video ##
 [![An old video of the AI in action.](https://img.youtube.com/vi/YaIHvPvkL3o/0.jpg)](https://www.youtube.com/watch?v=YaIHvPvkL3o)
+
 The video is an old version of the bot. The new version barely ever (never?) actually dies. I've only really watched it for a few minutes at a time.
 
 ## Algorithm ##
