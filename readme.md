@@ -10,15 +10,15 @@ This repository includes a pretty cool Tetris AI I wrote some time in high schoo
 The algorithm is very simple, it uses a score-based approach with a small number of parameters. I designed it to play the way I do, which is apparently alright. The scoring code is in TetrisBot.calculateBoardScore(). In order to decide on the next move, the AI scores all valid placements of the current piece or the piece that can be swapped from the hold position.
 
 Scoring is based on the following ideas:
-1. Clearing lines is good
-2. Clearing tetrises is even better (4 lines at once)
-3. It is possible to eliminate the entire piece being placed by clearing lines, and that is a wonderful move if available
-4. Pieces should be placed so that they share as many edges as possible with the current stack.
-5. Placing pieces near walls is a good thing too
-6. Piece placement should prefer lower positions on the stack
-7. It is very bad to place a piece so that it creates a "shadow"
-8. Likewise, it is bad to cover up bubbles in the stack below the newly placed piece. (Doing so makes it harder to access and break the lines containing these bubbles)
-9. Leaving "cliffs" of greater than 1 tile next to the newly placed piece is bad, as it creates a need for an L, J or I piece.
+* Clearing lines is good
+* Clearing tetrises is even better (4 lines at once)
+* It is possible to eliminate the entire piece being placed by clearing lines, and that is a wonderful move if available
+* Pieces should be placed so that they share as many edges as possible with the current stack.
+* Placing pieces near walls is a good thing too
+* Piece placement should prefer lower positions on the stack
+* It is very bad to place a piece so that it creates a "shadow"
+* Likewise, it is bad to cover up bubbles in the stack below the newly placed piece. (Doing so makes it harder to access and break the lines containing these bubbles)
+* Leaving "cliffs" of greater than 1 tile next to the newly placed piece is bad, as it creates a need for an L, J or I piece.
 
 All of the above heuristics came from my own observations as I played. The numberical weights to each of these heuristics came from experimentation. The heuristics also change subject to a few conditions.
 
