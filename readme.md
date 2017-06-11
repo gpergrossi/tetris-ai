@@ -1,6 +1,12 @@
 # Tetris AI #
-
 This repository includes a pretty cool Tetris AI I wrote some time in high school. It isn't anything overly fancy, but it does the trick. The AI is built on top of the ITetris interface, which defines a playable tetris game implemented by TetrisImpl. There is also TetrisGraphics, which draws the ITetris instance using java.awt. To top it off, the demo also plays a midi file (The easiest way I could find to play music in Java without importing a library). 
+
+### Running the Code ###
+The Main class is TetrisPlayer.java. I use eclipse to compile and run the code, but the following CMD commands will do the same:
+`mkdir bin`
+`javac -d ./bin -sourcepath ./src ./src/tetris/TetrisPlayer.java`
+`java -cp ./bin tetris/TetrisPlayer`
+`pause`
 
 ## Screenshot ##
 ![Screenshot of tetris AI GUI.](./demo.png)
