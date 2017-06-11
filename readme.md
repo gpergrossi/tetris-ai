@@ -3,10 +3,10 @@
 This repository includes a pretty cool Tetris AI I wrote some time in high school. It isn't anything overly fancy, but it does the trick. The AI is built on top of the ITetris interface, which defines a playable tetris game implemented by TetrisImpl. There is also TetrisGraphics, which draws the ITetris instance using java.awt. To top it off, the demo also plays a midi file (The easiest way I could find to play music in Java without importing a library). 
 
 ## Screenshot ##
-![screenshot of tetris AI gui](./demo.png)
+![Screenshot of tetris AI GUI.](./demo.png)
 
 ## Video ##
-![an old video of the AI in action](https://www.youtube.com/watch?v=YaIHvPvkL3o)
+[![An old video of the AI in action.](https://img.youtube.com/vi/YaIHvPvkL3o/0.jpg)](https://www.youtube.com/watch?v=YaIHvPvkL3o)
 
 ## Algorithm ##
 
