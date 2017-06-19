@@ -10,13 +10,8 @@ java -cp ./bin tetris/TetrisPlayer
 pause
 ```
 
-## Screenshot ##
-![Screenshot of tetris AI GUI.](./demo.png)
-
 ## Video ##
-[![An old video of the AI in action.](https://img.youtube.com/vi/dOYkOc2Mgoc/0.jpg)](https://www.youtube.com/watch?v=dOYkOc2Mgoc)
-
-The video is an old version of the bot. The new version barely ever (never?) actually dies. I've only really watched it for a few minutes at a time.
+[![A video of the AI in action.](./demo.png)](https://www.youtube.com/watch?v=dOYkOc2Mgoc)
 
 ## Algorithm ##
 
