@@ -46,3 +46,6 @@ All of the above heuristics came from my own observations as I played. The numbe
 
 I cleaned up the code a bunch since I originally wrote it. The original wasn't terribly ugly, but it didn't live up to my current code quality standards. The refactoring hopefully made the code pretty clear and easy to follow, however the calculateBoardScore method is pretty much unchanged from its original state, so it is a bit messy. One of the most important edits I made was to update the graphics system, which was pretty terrible in its original form. The new code has a healthy separation of graphics and state.
 
+## License ##
+
+I am releasing this code under the MIT license found in LICENSE.txt. The MIT license is very persmissive. Read it if you want to know more.
